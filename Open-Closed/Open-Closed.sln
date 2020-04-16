@@ -5,15 +5,11 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{361B8333-4453-4E1B-B55E-1CB6AF6D7F0D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Good Example", "Good Example", "{8FE72003-C38C-4B78-AE47-370E772E0A3E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{A64BC553-7086-473C-86DF-D54DCF5E45D2}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bad Example", "Bad Example", "{F5A094DD-92B2-4434-BB27-4031046AB5C8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{CFEA90ED-FDBE-436F-90AB-1C3DE4F34ADD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "GoodExamples\Application\Application.csproj", "{A64BC553-7086-473C-86DF-D54DCF5E45D2}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "GoodExamples\Domain\Domain.csproj", "{CFEA90ED-FDBE-436F-90AB-1C3DE4F34ADD}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "GoodExamples\Infrastructure\Infrastructure.csproj", "{FF6595C5-BD38-48E8-8AF3-AB0EF8E92E28}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{FF6595C5-BD38-48E8-8AF3-AB0EF8E92E28}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -40,11 +36,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{A64BC553-7086-473C-86DF-D54DCF5E45D2} = {8FE72003-C38C-4B78-AE47-370E772E0A3E}
-		{CFEA90ED-FDBE-436F-90AB-1C3DE4F34ADD} = {8FE72003-C38C-4B78-AE47-370E772E0A3E}
-		{FF6595C5-BD38-48E8-8AF3-AB0EF8E92E28} = {8FE72003-C38C-4B78-AE47-370E772E0A3E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E8088930-C414-4B5C-929B-237B00DDB421}
